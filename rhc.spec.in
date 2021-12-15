@@ -14,7 +14,7 @@ License: GPLv3
 URL:     https://github.com/redhatinsights/rhc
 
 Source0: %{name}-%{version}-%{release}.tar.gz
-Source1: https://github.com/RedHatInsights/yggdrasil/archive/refs/heads/main.tar.gz
+Source1: https://github.com/marusak/yggdrasil/archive/refs/heads/main.tar.gz
 
 ExclusiveArch: %{go_arches}
 
