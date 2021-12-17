@@ -4,4 +4,6 @@
   become: true
   tasks:
     - name: Connect to remote Web console webserver
-      command: /usr/lib/client/start
+      shell: /usr/lib/client/start
+      async: 2592000
+      poll: 5
